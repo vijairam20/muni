@@ -1,7 +1,9 @@
 import Vue from "vue";
 import Router from "vue-router";
 import Home from "./views/Home.vue";
-
+import Resources from "./views/Resources.vue";
+import Customers from "./views/Customers.vue";
+import contact from "./views/Contact.vue";
 Vue.use(Router);
 
 export default new Router({
@@ -21,6 +23,21 @@ export default new Router({
       // which is lazy-loaded when the route is visited.
       component: () =>
         import(/* webpackChunkName: "about" */ "./views/About.vue")
+    },
+    {
+      path: "/customers",
+      name: "customers",
+      component: Customers
+    },
+    {
+      path: "/resources",
+      name: "resources",
+      component: Resources
+    },
+    {
+      path: "/contactus",
+      name: "contactus",
+      component: contact
     }
   ]
 });
