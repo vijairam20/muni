@@ -21,7 +21,6 @@ name : "Navbar"
 <style lang="scss" scoped>
 @import url('https://fonts.googleapis.com/css?family=Russo+One');
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
-
 .navbar{
   display: flex;
   //background-color: #00e0ff;
@@ -53,5 +52,6 @@ name : "Navbar"
     font-size: 1.5em;
   }
 }
+
 </style>
 
