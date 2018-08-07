@@ -1,15 +1,15 @@
 <template>
   <div class="home">
-    <h1>Welcome to MUNI</h1>
+    <people/>
   </div>
 </template>
 
 <script>
-
+import People from "@/components/People.vue"
 export default {
   name: "home",
   components: {
-  
+    People
   }
 };
 </script>
