@@ -52,7 +52,7 @@ export default {
     }
     p{
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.2em;
     text-align: left;
     margin-left: 25px;
     }

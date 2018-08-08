@@ -1,5 +1,7 @@
 <template>
   <div class="home">
+    <hero/>
+    <CBody/>
     <people/>
     <footer>
       <div class="cta">
@@ -19,10 +21,14 @@
 
 <script>
 import People from "@/components/People.vue"
+import Hero from "@/components/Hero.vue"
+import Navbar from "@/components/Navbar.vue"
+import CBody from "@/components/Cbody.vue"
+
 export default {
   name: "home",
   components: {
-    People
+    People , Hero , Navbar , CBody
   }
 };
 </script>
@@ -33,7 +39,7 @@ export default {
 
 footer{
   margin-top: 20px;
-  height: 300px;
+  //height: 200px;
   font-family: 'Montserrat', sans-serif;
   color: white;
 
@@ -58,8 +64,11 @@ font-size: 1.5em;
 padding-left: 5em;
 }
 
-bottom{
+.bottom{
   display: flex;
+  color: black;
 }
+
+
 </style>
 
