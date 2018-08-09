@@ -13,19 +13,18 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang = "scss" scoped>
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 .hero{
-    width: 100vw;
     height: 95vh; 
-
+    min-width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     color: white;
-
+    
     font-family: 'Montserrat', sans-serif;
 background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%); 
 }

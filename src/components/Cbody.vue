@@ -42,11 +42,13 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 .content-inner{
   display: flex;
   img{
-    width :  300px;
-    height:  300px;
+    //width :  350px;
+    height:  350px;
     float: left;
   }
   article{
@@ -54,8 +56,10 @@ export default {
     margin-left: 35px;
   }
   p{
+    font-family: 'Open Sans', sans-serif;
     font-size: 1.5em;
     text-align: left;
+    padding: 50px;
   }
 }
 </style>

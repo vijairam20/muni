@@ -14,4 +14,9 @@ export default {
 </script>
 
 <style lang="scss">
+body{
+  height: 100%;
+      min-height: 100%;
+
+}
 </style>

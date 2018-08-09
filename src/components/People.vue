@@ -32,6 +32,8 @@ export default {
 
 .people{
     display: flex;
+    min-width: 100%;
+    width: 100%;
     span {
         height: 100px;
         width: 100px;
@@ -44,6 +46,7 @@ export default {
     }
 }
 .person{
+    width: 33%;
     text-align: center;
     h1{
         font-size: 3em;

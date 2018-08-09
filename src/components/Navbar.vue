@@ -23,7 +23,9 @@ name : "Navbar"
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 .navbar{
   display: flex;
+  background-color: transparent;
   //background-color: #00e0ff;
+ color: black;
   margin: 0px;
   justify-content: space-between;
 }
@@ -35,8 +37,8 @@ name : "Navbar"
       padding: 1em;
     }
   a{
-    text-decoration: none ;
     color: black;
+    text-decoration: none ;
   }
 }
 .nav-items{
@@ -45,8 +47,8 @@ name : "Navbar"
   flex-direction: flex-end;
   font-family: 'Montserrat' , sans-serif ;
   a{
-    text-decoration: none ;
     color: black;
+    text-decoration: none ;
     padding: 1em;
     font-weight: bold;
     font-size: 1.5em;
