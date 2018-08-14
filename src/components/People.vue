@@ -21,43 +21,40 @@
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
 <style lang ="scss" scoped>
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
 
-.people{
-    display: flex;
-    min-width: 100%;
-    width: 100%;
-    span {
-        height: 100px;
-        width: 100px;
-        background-color: grey;
-        border-radius: 50%;
-        display: inline-block;
-        margin: 150px;
-        margin-bottom: 10px;
-        padding: 100px;
-    }
+.people {
+  display: flex;
+  min-width: 100%;
+  width: 100%;
+  span {
+    height: 100px;
+    width: 100px;
+    background-color: grey;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 150px;
+    margin-bottom: 10px;
+    padding: 100px;
+  }
 }
-.person{
-    width: 33%;
-    text-align: center;
-    h1{
-        font-size: 3em;
-        font-family: 'Montserrat', sans-serif;
-
-    }
-    p{
-    font-family: 'Open Sans', sans-serif;
+.person {
+  width: 33%;
+  text-align: center;
+  h1 {
+    font-size: 3em;
+    font-family: "Montserrat", sans-serif;
+  }
+  p {
+    font-family: "Open Sans", sans-serif;
     font-size: 1.2em;
     text-align: left;
     margin-left: 25px;
-    }
+  }
 }
 </style>

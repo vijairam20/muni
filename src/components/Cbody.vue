@@ -36,27 +36,25 @@
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
 <style lang="scss" scoped>
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
 
-.content-inner{
+.content-inner {
   display: flex;
-  img{
+  img {
     //width :  350px;
-    height:  350px;
+    height: 350px;
     float: left;
   }
-  article{
-    margin-top:90px;
+  article {
+    margin-top: 90px;
     margin-left: 35px;
   }
-  p{
-    font-family: 'Open Sans', sans-serif;
+  p {
+    font-family: "Open Sans", sans-serif;
     font-size: 1.5em;
     text-align: left;
     padding: 50px;

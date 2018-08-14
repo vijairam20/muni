@@ -14,46 +14,43 @@
 
 <script>
 export default {
-name : "Navbar"
-}
+  name: "Navbar"
+};
 </script>
 
 <style lang="scss" scoped>
-@import url('https://fonts.googleapis.com/css?family=Russo+One');
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
-.navbar{
+@import url("https://fonts.googleapis.com/css?family=Russo+One");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+.navbar {
   display: flex;
   background-color: transparent;
   //background-color: #00e0ff;
- color: black;
+  color: black;
   margin: 0px;
   justify-content: space-between;
 }
-.nav-logo{
+.nav-logo {
   margin-top: 0.6em;
   span {
-      font-family: 'Russo One' , sans-serif ;
-      font-size: 3em;
-      padding: 1em;
-    }
-  a{
+    font-family: "Russo One", sans-serif;
+    font-size: 3em;
+    padding: 1em;
+  }
+  a {
     color: black;
-    text-decoration: none ;
+    text-decoration: none;
   }
 }
-.nav-items{
-
+.nav-items {
   display: flex;
   flex-direction: flex-end;
-  font-family: 'Montserrat' , sans-serif ;
-  a{
+  font-family: "Montserrat", sans-serif;
+  a {
     color: black;
-    text-decoration: none ;
+    text-decoration: none;
     padding: 1em;
     font-weight: bold;
     font-size: 1.5em;
   }
 }
-
 </style>
-
