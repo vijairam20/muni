@@ -32,7 +32,9 @@ export default {};
 .cta {
   margin-top: 30px;
   display: flex;
-  background-color: #3f51b5;
+  //background-color: #3f51b5;
+  background-color: lighten($color: red, $amount: 10%);
+
   padding: 4em;
   text-align: center;
   font-family: "Montserrat", sans-serif;

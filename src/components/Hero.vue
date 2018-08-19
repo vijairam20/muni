@@ -15,6 +15,7 @@ export default {};
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
 
 .hero {
+  
   height: 95vh;
   min-width: 100%;
   display: flex;
@@ -24,7 +25,7 @@ export default {};
   color: white;
 
   font-family: "Montserrat", sans-serif;
-  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  background-color: lighten($color: red, $amount: 10%);
 }
 
 .hero h1 {
