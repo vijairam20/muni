@@ -1,5 +1,5 @@
 <template>
-  <div class="navbar">
+  <div id="navbar">
     <div class="nav-logo">
       <router-link to = "/"><span>MUNI</span></router-link>
     </div>
@@ -21,13 +21,15 @@ export default {
 <style lang="scss" scoped>
 @import url("https://fonts.googleapis.com/css?family=Russo+One");
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
-.navbar {
+#navbar {
   display: flex;
   background-color: transparent;
-  //background-color: #00e0ff;
   color: black;
   margin: 0px;
   justify-content: space-between;
+
+  position : sticky;
+  top:0px;
 }
 .nav-logo {
   margin-top: 0.6em;
@@ -51,6 +53,13 @@ export default {
     padding: 1em;
     font-weight: bold;
     font-size: 1.5em;
+  }
+}
+
+.nav-sticky{
+  background: black;
+  a{
+    color: white;
   }
 }
 </style>
